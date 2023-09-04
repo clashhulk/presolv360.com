@@ -6,6 +6,16 @@
   perspective: 1000px;
 }
 
+/* Define the container for the rotating chats and apply animation delay */
+.rotatingLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  animation: startAnimation 3s linear forwards; /* Start animation after 2 seconds */
+}
+
 .leftChat {
   width: 100%;
   position: relative;
@@ -41,10 +51,12 @@
   }
 }
 
-.rotatingLogoContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+/* Keyframes for the delay animation */
+@keyframes startAnimation {
+  0% {
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    opacity: 1; /* Fully visible after 2 seconds */
+  }
 }
