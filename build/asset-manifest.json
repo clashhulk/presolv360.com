@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e09e467.css",
+    "main.js": "/static/js/main.8b2fc29c.js",
+    "static/js/651.5fe156ef.chunk.js": "/static/js/651.5fe156ef.chunk.js",
+    "static/media/Larg-logo.png": "/static/media/Larg-logo.27af36141e834e571680.png",
+    "static/media/Proxima Nova Bold.otf": "/static/media/Proxima Nova Bold.da16c8975f25ca6f2997.otf",
+    "static/media/Proxima Nova Light.otf": "/static/media/Proxima Nova Light.cda31342d2f74e410c0a.otf",
+    "static/media/Proxima Nova Regular.otf": "/static/media/Proxima Nova Regular.7bc9ce404c297c24f210.otf",
+    "static/media/legal-advice-online.webp": "/static/media/legal-advice-online.8e43ca020e616f59b97c.webp",
+    "static/media/cyril.svg": "/static/media/cyril.ce9b04325cbebedf195e3c8fbfe5f86f.svg",
+    "static/media/satyamev-jayate.webp": "/static/media/satyamev-jayate.6616908b9be4dc08f724.webp",
+    "static/media/online-apeal.webp": "/static/media/online-apeal.39e413e64bb3f3209ab6.webp",
+    "static/media/3.webp": "/static/media/3.d08010aa33339e1c2c6d.webp",
+    "static/media/Logo.png": "/static/media/Logo.1326f5cba41d9c4e5917.png",
+    "static/media/iimb.webp": "/static/media/iimb.06c87040000f3a56eb0b.webp",
+    "static/media/SINE.webp": "/static/media/SINE.ff05eb1a0d31092a7e8e.webp",
+    "static/media/cherie.webp": "/static/media/cherie.afc3cd9fbc907db2ab32.webp",
+    "static/media/business Today.webp": "/static/media/business Today.8713b39e92118eff2636.webp",
+    "static/media/94-3-radio-one.webp": "/static/media/94-3-radio-one.60fefaebc7eaaff148eb.webp",
+    "static/media/MSS.webp": "/static/media/MSS.c3435bfe6d8270f1b193.webp",
+    "static/media/startup-india.webp": "/static/media/startup-india.008d126568148782be8c.webp",
+    "static/media/scroll-wheel.webp": "/static/media/scroll-wheel.f806f1568a71f71e5bca.webp",
+    "static/media/1.webp": "/static/media/1.4d1e7a141d3e58cfe4e1.webp",
+    "index.html": "/index.html",
+    "main.0e09e467.css.map": "/static/css/main.0e09e467.css.map",
+    "main.8b2fc29c.js.map": "/static/js/main.8b2fc29c.js.map",
+    "651.5fe156ef.chunk.js.map": "/static/js/651.5fe156ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e09e467.css",
+    "static/js/main.8b2fc29c.js"
+  ]
+}
