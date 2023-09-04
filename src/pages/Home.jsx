@@ -2,8 +2,8 @@ import Box from "@mui/material/Box";
 import React, { useRef } from "react";
 
 import yellowTrangle from "../assets/img/1.webp";
-import logo from "../assets/img/Larg-logo.png";
 import scrollWheel from "../assets/img/scroll-wheel.webp";
+import RotatingImages from "../components/animated/RotatingImages";
 import AlliancesIncuCarousels from "../components/carousels/AlliancesIncuCarousels";
 import AwardsRecCarousels from "../components/carousels/AwardsRecCarousels";
 import ImageCarousel from "../components/carousels/ImageCarousel";
@@ -37,7 +37,8 @@ const Home = () => {
             ></img>{" "}
           </div>
           <div className={styles.introLogoContainer}>
-            <img alt="" src={logo} className={styles.introLogo}></img>
+            <RotatingImages />
+            {/* <img alt="" src={logo} className={styles.introLogo}></img> */}
           </div>{" "}
           <img
             alt=""
