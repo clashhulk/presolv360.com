@@ -2,7 +2,7 @@ import React from "react";
 
 import leftChat from "./../../assets/img/left-chat.webp";
 import rightChat from "./../../assets/img/right-chat.webp";
-import styles from "./animated.module.css";
+import styles from "./Animated.module.css";
 
 const RotatingImages = () => {
   return (

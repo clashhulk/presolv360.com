@@ -8,6 +8,7 @@ import AlliancesIncuCarousels from "../components/carousels/AlliancesIncuCarouse
 import AwardsRecCarousels from "../components/carousels/AwardsRecCarousels";
 import ImageCarousel from "../components/carousels/ImageCarousel";
 import AboutUsTabs from "../components/tabs/AboutUsTabs";
+import Advisors from "../components/teams/Advisors";
 import styles from "./styles/Home.module.css";
 
 const Home = () => {
@@ -58,6 +59,14 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className={styles.teamSection}>
+        <div className={styles.teamSectionTitleContainer}>
+          <h4 className={styles.allIncTitle}>Alliances and Incubation</h4>
+          <hr className={styles.allIncTitleHr} />
+        </div>
+        <Advisors />
+      </section>
+
       <Box className={styles.mainBrandSlidesSection}>
         <h4 className={styles.allIncTitle}>Alliances and Incubation</h4>
 
