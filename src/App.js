@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import ImageCarousel from "./components/carousels/ImageCarousel";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Home from "./pages/Home";
@@ -21,7 +20,7 @@ class App extends Component {
             {/* Add more routes here */}
           </Routes>
         </Main>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     );
   }
