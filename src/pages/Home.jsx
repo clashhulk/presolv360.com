@@ -8,6 +8,7 @@ import RotatingImages from "../components/animated/RotatingImages";
 import AlliancesIncuCarousels from "../components/carousels/AlliancesIncuCarousels";
 import AwardsRecCarousels from "../components/carousels/AwardsRecCarousels";
 import ImageCarousel from "../components/carousels/ImageCarousel";
+import Milestones from "../components/milestones/Milestones";
 import AboutUsTabs from "../components/tabs/AboutUsTabs";
 import Advisors from "../components/teams/Advisors";
 import styles from "./styles/Home.module.css";
@@ -64,6 +65,9 @@ const Home = () => {
             ></img>
           </div>
         </div>
+      </section>
+      <section className={styles.milestonesSection}>
+        <Milestones />
       </section>
       <section className={styles.teamSection}>
         <div className={styles.teamSectionTitleContainer}>
