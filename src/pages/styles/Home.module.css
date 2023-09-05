@@ -63,7 +63,6 @@
   left: 100%;
   transform: translate(-50%, -50%);
   animation: left-image-bounce 4s ease-in-out infinite;
-  /* animation: left-image-bounce 3s ease-in-out infinite; */
 }
 .scrollWheel {
   position: absolute;
@@ -134,12 +133,20 @@
 /* .aboutUsCarousel {
 } */
 .aboutUsTabsMain {
+  position: relative;
   flex: 1 1;
   margin: 0 1rem;
   box-shadow: 0 3px 20px rgb(0 33 71 / 15%);
   border-radius: 14px;
 }
-
+.backgroundCircle {
+  width: 80px;
+  right: -13%;
+  position: absolute;
+  bottom: 83%;
+  transform: translate(-50%, -50%);
+  animation: basic-bounce 4s ease-in-out infinite;
+}
 .timeline {
   display: flex;
   flex-direction: row;
@@ -228,6 +235,15 @@
   }
   50% {
     left: 0;
+  }
+}
+@keyframes basic-bounce {
+  0%,
+  100% {
+    top: 7%;
+  }
+  50% {
+    top: 0;
   }
 }
 /* HorizontalTimeline.module.css */

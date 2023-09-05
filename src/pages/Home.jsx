@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import React, { useRef } from "react";
 
 import yellowTrangle from "../assets/img/1.webp";
+import backgroundCircle from "../assets/img/backgrounds/circle.svg";
 import scrollWheel from "../assets/img/scroll-wheel.webp";
 import RotatingImages from "../components/animated/RotatingImages";
 import AlliancesIncuCarousels from "../components/carousels/AlliancesIncuCarousels";
@@ -35,7 +36,7 @@ const Home = () => {
               alt=""
               src={yellowTrangle}
               className={styles.yellowTrangle}
-            ></img>{" "}
+            ></img>
           </div>
           <div className={styles.introLogoContainer}>
             <RotatingImages />
@@ -56,6 +57,11 @@ const Home = () => {
           </div>
           <div className={styles.aboutUsTabsMain}>
             <AboutUsTabs />
+            <img
+              alt=""
+              src={backgroundCircle}
+              className={styles.backgroundCircle}
+            ></img>
           </div>
         </div>
       </section>
