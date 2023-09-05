@@ -109,11 +109,11 @@
 
 /* section 2  */
 .secondSection {
+  height: 545px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 85vh; /* Full viewport height */
-  width: 100vw;
+  margin-bottom: 1rem;
+  align-items: flex-end;
 }
 .aboutUsContainer {
   display: flex;
@@ -183,8 +183,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 300px; /* Full viewport height */
   width: 100%;
+  margin-top: 1rem;
 }
 .brandSlidesSection {
   display: flex;
@@ -198,29 +198,25 @@
 }
 .allIncTitleHr {
   border: none;
-  height: 2px;
+  height: 1px;
   background: #fbb04c;
-  width: 300px;
+  width: 388px;
   margin: 0.4rem 0;
 }
 .allIncTitle {
   margin: 0 0 0.3rem 0;
-  font-size: 24px;
+  font-size: 32px;
   font-family: "Proxima Nova Bold";
   color: #005186;
 }
 /* team */
 .teamSection {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .teamSectionTitleContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 0;
 }
 @media (max-width: 768px) {
   .aboutUsContainer {

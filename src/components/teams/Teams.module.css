@@ -3,17 +3,18 @@
   /* justify-content: space-between; */
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .teamCard {
-  width: calc(25% - 60px);
+  border: 1px solid #e3e3e39c;
+  border-radius: 22px;
+  box-shadow: 0 4.4px 20px rgb(43 32 101 / 8%);
   margin: 1rem;
   padding: 0.5rem;
-  border: 1px solid #e3e3e3;
-  border-radius: 22px;
-  box-shadow: 0 4.4px 20px rgba(19, 16, 34, 0.05);
   position: relative;
   text-align: center;
+  width: calc(25% - 60px);
 }
 
 .teamImage {

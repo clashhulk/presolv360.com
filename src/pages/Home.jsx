@@ -67,8 +67,8 @@ const Home = () => {
       </section>
       <section className={styles.teamSection}>
         <div className={styles.teamSectionTitleContainer}>
-          <h4 className={styles.allIncTitle}>Alliances and Incubation</h4>
-          <hr className={styles.allIncTitleHr} />
+          <h4 className={styles.allIncTitle}>Advisors</h4>
+          <hr className={styles.allIncTitleHr} style={{ width: "162px" }} />
         </div>
         <Advisors />
       </section>
